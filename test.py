@@ -6,9 +6,15 @@ from sklearn.datasets import load_iris
 iris=load_iris()
 features=iris.data.T
 #print(iris.keys())
-#print(iris["feature_names"])
+#print(iris.feature_names)
 #print(iris.DESCR) 
+#print(iris.target)
+#print(iris.feature_names)
+#print(iris.data)
 #print(features[0])
+#print(features[1])
+#print(features[2])
+#print(features[3])
 sepal_length=features[0]
 sepal_width=features[1]
 petal_length=features[2]
